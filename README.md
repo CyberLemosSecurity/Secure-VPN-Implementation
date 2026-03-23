@@ -1,6 +1,6 @@
 🔒 Remote Access IPsec VPN Implementation
 
- 1.Objective
+  1.Objective
 To configure a secure communication tunnel (IPsec VPN) using a FortiGate firewall in a virtualized environment. The primary goal is to allow an external endpoint (host computer) to securely access resources within an isolated internal network (LAN), ensuring data integrity and confidentiality.
 
  2.Environment
@@ -24,6 +24,7 @@ Phase 1 (IKE): Security Association (SA) establishment via UDP port 500, utilizi
 Phase 2 (IPsec): Creation of the encapsulated data tunnel.
 
 Encapsulation: Utilization of the ESP protocol for traffic encryption between the assigned client IP range (10.10.10.0/24) and the destination network.
+<img width="803" height="759" alt="image" src="https://github.com/user-attachments/assets/7b5b957b-4d83-4f98-a708-30b5eb2386fc" />
 
  4.Data Collection
 During the troubleshooting process, logs were collected via CLI (Command Line Interface) for diagnostics:
